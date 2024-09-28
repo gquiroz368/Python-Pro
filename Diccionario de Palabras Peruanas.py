@@ -1,5 +1,5 @@
 buscador = input("¿Con que palabra tienes duda?")
-diccionario = {"Palta": "Relacionado a algo embarazoso", "Causa": "Amigo o amiga", "Pe": "Abreviación de la palabra 'pues', "Chamba": }
+diccionario = {"Palta": "Relacionado a algo embarazoso", "Causa": "Amigo o amiga", "Pe": "Abreviación de la palabra 'pues'", "Chamba": "Trabajo"}
 if buscador in diccionario:
     print(diccionario[buscador])
 else:
