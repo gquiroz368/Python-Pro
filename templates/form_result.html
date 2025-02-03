@@ -1,0 +1,22 @@
+<!-- Crear una página que emita los datos del usuario -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Resultados del Formulario</title>
+</head>
+<body>
+    {% block content %}
+    <div class="result-container">
+        <h1>¡Datos recibidos!</h1>
+        <p><strong>Nombre:</strong> {{ name }}</p>
+        <p><strong>Dirección:</strong> {{ address }}</p>
+        <p><strong>Correo:</strong> {{ email }}</p>
+        <p><strong>Fecha:</strong> {{ date }}</p>
+        <a href="/" class="back-button">Volver al inicio</a>
+    </div>
+    {% endblock %}
+</body>
+</html>
